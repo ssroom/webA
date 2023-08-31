@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-UUID='bcbfc74f-eb42-434f-ac76-f3d3535c67f1'
+NEZHA_SERVER=${NEZHA_SERVER:-'nz.fcuk.eu.org'}
+NEZHA_PORT=${NEZHA_PORT:-'5555'}
+NEZHA_KEY=${NEZHA_KEY:-'owAIcreLRUMNjHdEG5'}
+TLS=${TLS:-'0'}
+UUID='5a9e0e28-9bef-4fa8-b875-b8fe8a9bde46'
 VMESS_WSPATH='/vmess'
 VLESS_WSPATH='/vless'
 TROJAN_WSPATH='/trojan'
